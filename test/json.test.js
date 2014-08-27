@@ -73,7 +73,7 @@ describe('json', function () {
             clireq = request(server)
                 .topic('/')
                 .publish('true');
-        })
+        });
     });
 
     describe('when strict is true', function () {
@@ -114,7 +114,7 @@ describe('json', function () {
             clireq = request(server)
                 .topic('/')
                 .publish('true');
-        })
+        });
     });
 
     describe('with verify option', function(){
@@ -122,7 +122,7 @@ describe('json', function () {
             var err;
 
             try {
-                var server = createServer({ verify: 'lol' })
+                var server = createServer({ verify: 'lol' });
             } catch (e) {
                 err = e;
             }
