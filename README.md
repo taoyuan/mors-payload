@@ -12,6 +12,23 @@ mors-payload
 $ npm install mors-payload
 ```
 
+## API
+
+```js
+var mors = require('mors')
+var payload = require('mors-payload')
+
+var app = mors()
+
+// parse json
+app.use(payload.json())
+
+app.use(function (req, res, next) {
+  console.log(req.body) // populated!
+  next()
+});
+```
+
 ## License
 
 Copyright (c) 2014 Tao Yuan  
