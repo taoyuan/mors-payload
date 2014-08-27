@@ -1,0 +1,48 @@
+{
+  "name": "mors-payload",
+  "version": "0.1.0",
+  "main": "index.js",
+  "description": "Mors payload parsing middleware",
+  "homepage": "https://github.com/taoyuan/mors-payload",
+  "bugs": "https://github.com/taoyuan/mors-payload/issues",
+  "author": {
+    "name": "Tao Yuan",
+    "email": "torworx@gmail.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/taoyuan/mors-payload"
+  },
+  "licenses": [
+    {
+      "type": "MIT"
+    }
+  ],
+  "files": [
+    "lib"
+  ],
+  "keywords": [
+    "mors-payload",
+    "mors",
+    "payload",
+    "parser"
+  ],
+  "devDependencies": {
+    "chai": "^1.9.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "^0.6.1",
+    "grunt-mocha-test": "~0.11.0",
+    "jshint-stylish": "^0.4.0",
+    "load-grunt-tasks": "^0.6.0",
+    "mocha": "^1.21.4",
+    "mors": "^0.1.5",
+    "morstest": "^0.1.2",
+    "time-grunt": "~1.0.0"
+  },
+  "scripts": {
+    "test": "grunt"
+  },
+  "dependencies": {
+    "iconv-lite": "^0.4.4"
+  }
+}
