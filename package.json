@@ -25,21 +25,21 @@
     "parser"
   ],
   "devDependencies": {
-    "chai": "^1.9.1",
-    "grunt-contrib-jshint": "^0.10.0",
-    "grunt-contrib-watch": "^0.6.1",
-    "grunt-mocha-test": "~0.11.0",
-    "jshint-stylish": "^0.4.0",
-    "load-grunt-tasks": "^0.6.0",
-    "mocha": "^1.21.4",
-    "mors": "^0.1.5",
+    "chai": "^4.2.0",
+    "grunt-contrib-jshint": "^2.1.0",
+    "grunt-contrib-watch": "^1.1.0",
+    "grunt-mocha-test": "~0.13.3",
+    "jshint-stylish": "^2.2.1",
+    "load-grunt-tasks": "^5.1.0",
+    "mocha": "^6.2.0",
+    "mors": "^0.2.0",
     "morstest": "^0.1.2",
-    "time-grunt": "~1.0.0"
+    "time-grunt": "~2.0.0"
   },
   "scripts": {
     "test": "grunt"
   },
   "dependencies": {
-    "iconv-lite": "^0.4.4"
+    "iconv-lite": "^0.5.0"
   }
 }
